@@ -1,0 +1,28 @@
+﻿<Window x:Name="___MainWindow_" x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black"/>
+            <GradientStop Color="#FFE0A2DB" Offset="0.79"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid Margin="0,0,0,2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="Text_1" Height="109" TextWrapping="Wrap" Text="Головне вікно" VerticalAlignment="Top" Foreground="#FFFFF5F5" FontSize="48" Margin="0,20,220,0" FontWeight="Normal" FontStyle="Italic" TextDecorations="{x:Null}" FontFamily="Comic Sans MS" Grid.Column="1" HorizontalAlignment="Right" Width="357"/>
+        <Button x:Name="ToWin1" Content="До вікна 1" Height="49" Margin="10,0,641,191" VerticalAlignment="Bottom" BorderBrush="#FFB3A9A9" Background="#FFB59B9B" FontSize="20" FontFamily="Comic Sans MS" Click="ToWin1_Click" Grid.Column="1" RenderTransformOrigin="0.513,-0.112"/>
+        <Button x:Name="ToWin2" Content="До вікна 2" Margin="223,182,425,182" BorderBrush="#FFB3A9A9" Background="#FFB59B9B" FontSize="20" FontFamily="Comic Sans MS" Grid.Column="1" Click="ToWin2_Click"/>
+        <Button x:Name="ToWin3" Content="До вікна 3" Margin="431,0,0,0" BorderBrush="#FFB3A9A9" Background="#FFB59B9B" FontSize="20" FontFamily="Comic Sans MS" Click="ToWin3_Click" Grid.Column="1" HorizontalAlignment="Left" Width="149" Height="49" VerticalAlignment="Center"/>
+        <Button x:Name="ToWin4" Content="До вікна 4" Height="48" Margin="629,0,0,0" VerticalAlignment="Center" BorderBrush="#FFB3A9A9" Background="#FFB59B9B" FontSize="20" FontFamily="Comic Sans MS" Click="ToWin4_Click" Grid.Column="1" HorizontalAlignment="Left" Width="149"/>
+        <Button x:Name="Exit" Content="Вихід" HorizontalAlignment="Left" Height="48" Margin="327,319,0,0" VerticalAlignment="Top" Width="149" FontFamily="Comic Sans MS" FontSize="24" Click="Exit_Click" Background="#FFBB9393" Grid.Column="1"/>
+
+    </Grid>
+</Window>

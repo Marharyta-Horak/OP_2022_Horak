@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfApp2.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Window3"  Height="700" Width="500" Background="#FFF1CDCD" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock TextWrapping="Wrap" Text="Третє графічне вікно" Margin="65,22,21,557" FontSize="36" FontFamily="Comic Sans MS"/>
+        <Button x:Name="ToMain" Content="До головного вікна" Margin="250,602,21,19" FontSize="22" FontFamily="Comic Sans MS" Background="#FF3C0A0A" BorderBrush="#FFDCCE6C" Foreground="#FFFFF4F4" Click="ToMain_Click"/>
+        <Button x:Name="plus" Content="+" HorizontalAlignment="Left" Height="70" Margin="320,499,0,0" VerticalAlignment="Top" Width="70" FontSize="24" Click="plus_Click"/>
+        <Button x:Name="zapita" Content="," HorizontalAlignment="Left" Height="70" Margin="250,499,0,0" VerticalAlignment="Top" Width="70" FontSize="24" Click="zapita_Click"/>
+        <Button x:Name="nol" Content="0" HorizontalAlignment="Left" Height="70" Margin="180,499,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.382,0.503" FontSize="24" Click="number_Click"/>
+        <Button x:Name="plus_minus" Content="+/-" HorizontalAlignment="Left" Height="70" Margin="110,499,0,0" VerticalAlignment="Top" Width="70" FontSize="24" Click="plus_minus_Click"/>
+        <Button x:Name="minus" Content="-" HorizontalAlignment="Left" Height="70" Margin="320,429,0,0" VerticalAlignment="Top" Width="70" FontSize="24" Click="minus_Click"/>
+        <Button x:Name="mnozh" Content="x" HorizontalAlignment="Left" Height="70" Margin="320,359,0,0" VerticalAlignment="Top" Width="70" FontSize="24" Click="mnozh_Click"/>
+        <Button x:Name="dilennya" Content="/" HorizontalAlignment="Left" Height="70" Margin="320,289,0,0" VerticalAlignment="Top" Width="70" FontSize="24" Click="dilennya_Click"/>
+        <Button x:Name="tri" Content="3" HorizontalAlignment="Left" Height="70" Margin="250,429,0,0" VerticalAlignment="Top" Width="70" FontSize="24" Click="number_Click"/>
+        <Button x:Name="dwa" Content="2" HorizontalAlignment="Left" Height="70" Margin="180,429,0,0" VerticalAlignment="Top" Width="70" FontSize="24" Click="number_Click"/>
+        <Button x:Name="adin" Content="1" HorizontalAlignment="Left" Height="70" Margin="110,429,0,0" VerticalAlignment="Top" Width="70" FontSize="24" Click="number_Click"/>
+        <Button x:Name="shest" Content="6" HorizontalAlignment="Left" Height="70" Margin="250,359,0,0" VerticalAlignment="Top" Width="70" FontSize="24" Click="number_Click"/>
+        <Button x:Name="pyat" Content="5" HorizontalAlignment="Left" Height="70" Margin="180,359,0,0" VerticalAlignment="Top" Width="70" FontSize="24" Click="number_Click"/>
+        <Button x:Name="chetiri" Content="4" HorizontalAlignment="Left" Height="70" Margin="110,359,0,0" VerticalAlignment="Top" Width="70" FontSize="24" Click="number_Click"/>
+        <Button x:Name="sem" Content="7" HorizontalAlignment="Left" Height="70" Margin="110,289,0,0" VerticalAlignment="Top" Width="70" FontSize="24" Click="number_Click"/>
+        <Button x:Name="deviat" Content="9" HorizontalAlignment="Left" Height="70" Margin="250,289,0,0" VerticalAlignment="Top" Width="70" FontSize="24" Click="number_Click"/>
+        <Button x:Name="vosem" Content="8" HorizontalAlignment="Left" Height="70" Margin="180,289,0,0" VerticalAlignment="Top" Width="70" FontSize="24" Click="number_Click"/>
+        <Button x:Name="Clear" Content="&lt;=" HorizontalAlignment="Left" Height="70" Margin="320,219,0,0" VerticalAlignment="Top" Width="70" FontSize="24" Click="Clear_Click"/>
+        <Button x:Name="Clear_all" Content="С" HorizontalAlignment="Left" Height="70" Margin="250,219,0,0" VerticalAlignment="Top" Width="70" FontSize="24" FontWeight="Normal" Click="Clear_all_Click"/>
+        <Button x:Name="Rovno" Content="=" HorizontalAlignment="Left" Height="70" Margin="180,219,0,0" VerticalAlignment="Top" Width="70" Click="Button_Click" FontSize="48"/>
+        <TextBox x:Name="Write" HorizontalAlignment="Left" Height="46" Margin="110,168,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175" FontSize="24"/>
+        <TextBox x:Name="consider" HorizontalAlignment="Left" Height="46" Margin="290,168,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100" FontSize="24"/>
+    </Grid>
+</Window>
