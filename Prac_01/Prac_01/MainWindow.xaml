@@ -1,0 +1,16 @@
+﻿<Window x:Class="Prac_01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prac_01"
+        mc:Ignorable="d"
+        Title="Main" Height="200" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="Main" Background="#FF9FF3DA">
+        <TextBlock HorizontalAlignment="Center" Height="63" Margin="0,10,0,0" TextWrapping="Wrap" Text="Система автентифікації користувача по клавіатурному почерку" VerticalAlignment="Top" Width="735" FontFamily="Arial Black" FontSize="20"/>
+        <Button x:Name="Lernen" Content="Режим навчання" HorizontalAlignment="Left" Height="35" Margin="32,92,0,0" VerticalAlignment="Top" Width="175" FontSize="14" FontFamily="Arial" Click="Lernen_Click"/>
+        <Button x:Name="Chek" Content="Режим перевірки" HorizontalAlignment="Left" Height="35" Margin="305,92,0,0" VerticalAlignment="Top" Width="175" FontSize="14" FontFamily="Arial" Click="Chek_Click"/>
+        <Button x:Name="Exit" Content="Вихід із системи" HorizontalAlignment="Left" Height="35" Margin="574,92,0,0" VerticalAlignment="Top" Width="175" FontSize="14" FontFamily="Arial" Click="Exit_Click"/>
+
+    </Grid>
+</Window>
