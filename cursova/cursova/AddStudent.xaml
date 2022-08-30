@@ -1,0 +1,22 @@
+﻿<Page x:Class="cursova.AddStudent"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:cursova"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddStudent">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="34,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" Width="152" FontSize="22"><Run Language="uk-ua" Text="Ім'я студента"/></TextBlock>
+        <TextBox Name="NameSt" TextWrapping="Wrap" Text="" Margin="34,72,525,303" FontSize="18" TextChanged="NameSt_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="319,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" Width="229" FontSize="22"><Run Language="uk-ua" Text="Призвіще "/><Run Text=" студента"/></TextBlock>
+        <TextBox Name="SurnameSt" TextWrapping="Wrap" Text="" Margin="319,74,233,305" FontSize="18" TextChanged="SurnameSt_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" Width="152" FontSize="22"><Run Language="uk-ua" Text="По батькові"/></TextBlock>
+        <TextBox x:Name="Secondname" TextWrapping="Wrap" Text="" Margin="34,198,525,189" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" Width="392" FontSize="22"><Run Language="uk-ua" Text="Група в якій студент буде навчатись"/></TextBlock>
+        <TextBox x:Name="GroupID" TextWrapping="Wrap" Text="" Margin="34,305,525,71" FontSize="18"/>
+        <Button Content="Додати студента" HorizontalAlignment="Left" Height="70" Margin="560,332,0,0" VerticalAlignment="Top" Width="189" FontSize="22" Click="Button_Click"/>
+    </Grid>
+</Page>
